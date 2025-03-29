@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Productivity Extension",
+    "version": "0.1.0",
+    "description": "Chrome Extension for Productivity",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "storage",
+        "tabs"
+    ]
+}
