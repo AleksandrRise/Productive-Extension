@@ -90,7 +90,21 @@ body {
     #F58529 25%,
     #DD2A7B 50%,
     #8134AF 75%, 
-    #515BD4 100%)
+    #515BD4 100%);
+    
+    padding: 60px 80px 0 80px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.instaSwitch {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .switch {
