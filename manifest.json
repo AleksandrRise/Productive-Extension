@@ -15,5 +15,12 @@
     "permissions": [
         "storage",
         "tabs"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://www.instagram.com/"],
+            "js": ["content.js"]
+        }
     ]
+    
 }
